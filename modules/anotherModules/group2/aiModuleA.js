@@ -1,5 +1,4 @@
-const input = document.querySelector("input");
-const output = document.querySelector("#chating");
+import { input, output, firstProcess } from "../group1/firstProcess.js";
 export function valueProcess() {
     // console.log("아직 준비 안 함.");
     // console.log(input.value);
@@ -22,4 +21,5 @@ export function valueProcess() {
     //---
     output.appendChild(inputValue);
     output.appendChild(document.createElement("br"));
+    firstProcess();
 }
