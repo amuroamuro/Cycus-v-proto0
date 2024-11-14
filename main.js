@@ -1,3 +1,5 @@
+//임포트
+import { process } from "./modules/anotherModules/group3/process.js";
 //변수선언1
 const input = document.querySelector("input");
 const output = document.querySelector("header+div+div");
@@ -20,9 +22,6 @@ function unMainFunction(event) {
             doKeyDown = false;
         }
     }
-}
-function process() {
-    console.log("오케이.확인!");
 }
 //이벤트리스너. 젠장 제일귀찮아!!
 input.addEventListener('keydown', mainFunction);
