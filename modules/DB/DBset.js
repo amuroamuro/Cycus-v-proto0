@@ -15,3 +15,9 @@ if(!window.indexedDB) {
         db.createObjectStore('CycusProto0', {keyPath:'type', autoIncrement:false});
     });
 }
+//아아아아!!!!!!!!!!!!
+//시발 젠장!!!!
+//다시생각해보니 indexedDB가 필요가 없었어!!!!!!
+//젠장!!!!!!!
+//아아아아아아아아아아!!!!!!!!
+//그냥 로컬스토리지만 있었으면 됐는데!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
