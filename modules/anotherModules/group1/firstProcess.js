@@ -10,7 +10,8 @@ export function 문장처리() {
     var inputedValue = input.value;
     var inputedValuesRealTokens = 토큰화(inputedValue, comma);
     var inputedValueSameTokens = 간략화(inputedValue, comma);
-    console.log(inputedValuesRealTokens+"<--토큰화/간략화-->"+inputedValueSameTokens);
+    //console.log(inputedValuesRealTokens+"<--토큰화/간략화-->"+inputedValueSameTokens);
+
 }
 export function firstProcess() {
     문장처리();
