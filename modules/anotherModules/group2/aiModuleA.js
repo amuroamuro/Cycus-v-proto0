@@ -8,7 +8,7 @@ export function valueProcess() {
     // }else {
     //     console.log("있어.");
     // }
-    var inputValue = document.createTextNode(input.value);
+    var inputValue = document.createTextNode("하등생물: "+input.value);
     // if(inputValue){
     //     console.log("있어.");
     //     console.log(inputValue);
