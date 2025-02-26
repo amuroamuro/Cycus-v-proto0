@@ -20,6 +20,5 @@ export function valueProcess() {
     //아웃풋 오류 처리함.
     //---
     output.appendChild(inputValue);
-    output.appendChild(document.createElement("br"));
     firstProcess();
 }
